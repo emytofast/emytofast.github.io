@@ -62,11 +62,11 @@
 <script src="Development/fileloader.js"></script>
 <script>if (!(!Math.fround)) {
   var script = document.createElement('script');
-  script.src = "Development/emytofast.github.io.js";
+  script.src = "Development/Web.js";
   document.body.appendChild(script);
 } else {
   var codeXHR = new XMLHttpRequest();
-  codeXHR.open('GET', 'Development/emytofast.github.io.js', true);
+  codeXHR.open('GET', 'Development/Web.js', true);
   codeXHR.onload = function() {
     var code = codeXHR.responseText;
     if (!Math.fround) { 

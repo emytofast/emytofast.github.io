@@ -15,8 +15,8 @@ Module.expectedDataFileDownloads++;
       // worker
       PACKAGE_PATH = encodeURIComponent(location.pathname.toString().substring(0, location.pathname.toString().lastIndexOf('/')) + '/');
     }
-    var PACKAGE_NAME = 'emytofast.github.io.data';
-    var REMOTE_PACKAGE_BASE = 'emytofast.github.io.data';
+    var PACKAGE_NAME = 'Web.data';
+    var REMOTE_PACKAGE_BASE = 'Web.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
       Module.printErr('warning: you defined Module.locateFilePackage, that has been renamed to Module.locateFile (using your locateFilePackage for now)');
@@ -25,7 +25,7 @@ Module.expectedDataFileDownloads++;
                               Module['locateFile'](REMOTE_PACKAGE_BASE) :
                               ((Module['filePackagePrefixURL'] || '') + REMOTE_PACKAGE_BASE);
     var REMOTE_PACKAGE_SIZE = 2558407;
-    var PACKAGE_UUID = '4fbfd8c6-dd83-4a06-8cd8-c17cfa89d5c5';
+    var PACKAGE_UUID = 'd8482371-a0ac-4b40-b2a5-563dd41499c9';
   
     function fetchRemotePackage(packageName, packageSize, callback, errback) {
       var xhr = new XMLHttpRequest();
@@ -142,10 +142,10 @@ Module['FS_createPath']('/', 'Resources', true, true);
           DataRequest.prototype.requests["/sharedassets0.assets"].onload();
           DataRequest.prototype.requests["/Resources/unity_default_resources"].onload();
           DataRequest.prototype.requests["/Resources/unity_builtin_extra"].onload();
-          Module['removeRunDependency']('datafile_emytofast.github.io.data');
+          Module['removeRunDependency']('datafile_Web.data');
 
     };
-    Module['addRunDependency']('datafile_emytofast.github.io.data');
+    Module['addRunDependency']('datafile_Web.data');
   
     if (!Module.preloadResults) Module.preloadResults = {};
   
