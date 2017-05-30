@@ -3,22 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Runtime Console</title>
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <script src="TemplateData/UnityProgress.js"></script>
+    <title>Runtime Console</title>
+    <link rel="shortcut icon" href="Home/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="Home/style.css">
+    <link rel="stylesheet" type="text/css" href="Home/bootstrap/bootstrap.min.css">
+    <script src="Home/bootstrap/bootstrap.min.js"></script>
   </head>
-  <body class="template">
-    <p class="header"><span>Unity WebGL Player | </span>Runtime Console</p>
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="720px" width="1280px"></canvas>
-      <br>
-      <div class="logo"></div>
-      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-      <div class="title">Runtime Console</div>
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">  
+      <a class="navbar-brand" href="#">Runtime Console</a>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./unity.html">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Doc/index.html">Documentation</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Runtime Console</h1>
+        <p class="lead">Runtime Console is an easy to use in-game console that lets you view logs outside of the editor, 
+          define commands which can then be called from the console's user interface, catch exceptions and much more..</p>
+        <a class="btn btn-primary" href="./unity.html" role="button">Go to demo &raquo;</a>
+        <p></p>
+        <h2>Documentation</h2>
+        <p class="lead">This is the code reference which includes the public API for the console.</p>     
+        <a class="btn btn-primary" href="./Doc/index.html" role="button">Go to documentation &raquo;</a>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Runtime Console on Asset Store</h1>
+        <p class="lead">Runtime Console is now on unity asset store. Check it out for more details !</a></p>     
+        <a class="btn btn-primary" href="http://u3d.as/Mdb" role="button">Go to asset store &raquo;</a>
+        <p></p>
+        <h2>Runtime Console on Unity Forums</h2>
+        <p class="lead">You can check out the thread on unity forums for updates and feedback !</a></p>     
+        <a class="btn btn-primary" href="https://forum.unity3d.com/threads/runtime-console-ugui.467031/" role="button">Go to thread &raquo;</a>
+      </div>
     </div>
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    <p><a href="./Doc/index.html" title="Documentation">Documentation</a></p>
-	    <p><a href="./unity.html" title="Demo">Demo</a></p>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright Miroiu Emanuel 2017.</p>
+      </div>
+    </footer>
   </body>
 </html>
