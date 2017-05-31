@@ -224,37 +224,6 @@ sharpDox.navigationData = [
 		]
 	},
 	{
-		id: 'RTC.Core',
-		text: 'RTC.Core',
-		icon: './assets/icons/namespace_public.png',
-		a_attr: { href : '#/namespace/RTC.Core' },
-		children: [
-			
- 
-
-		{
-			id: 'RTC.Core.CommandFilter',
-			text: 'CommandFilter',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Core.CommandFilter/index' }
-        },	
-		{
-			id: 'RTC.Core.LogFilter',
-			text: 'LogFilter',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Core.LogFilter/index' }
-        },	
-		{
-			id: 'RTC.Core.RTConsole',
-			text: 'RTConsole',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Core.RTConsole/index' }
-        },	
-
-
-		]
-	},
-	{
 		id: 'RTC.Core.Extension',
 		text: 'RTC.Core.Extension',
 		icon: './assets/icons/namespace_public.png',
@@ -274,49 +243,6 @@ sharpDox.navigationData = [
 			text: 'GenericExtension',
 			icon: './assets/icons/class_public.png',
 			a_attr: { href : '#/type/RTC.Core.Extension.GenericExtension/index' }
-        },	
-
-
-		]
-	},
-	{
-		id: 'RTC.Interface',
-		text: 'RTC.Interface',
-		icon: './assets/icons/namespace_public.png',
-		a_attr: { href : '#/namespace/RTC.Interface' },
-		children: [
-			
- 
-
-		{
-			id: 'RTC.Interface.IFilterT',
-			text: 'IFilter',
-			icon: './assets/icons/interface_public.png',
-			a_attr: { href : '#/type/RTC.Interface.IFilterT/index' }
-        },	
-		{
-			id: 'RTC.Interface.IFormatterT',
-			text: 'IFormatter',
-			icon: './assets/icons/interface_public.png',
-			a_attr: { href : '#/type/RTC.Interface.IFormatterT/index' }
-        },	
-		{
-			id: 'RTC.Interface.ITypeConverter',
-			text: 'ITypeConverter',
-			icon: './assets/icons/interface_public.png',
-			a_attr: { href : '#/type/RTC.Interface.ITypeConverter/index' }
-        },	
-		{
-			id: 'RTC.Interface.ITypeConverterProvider',
-			text: 'ITypeConverterProvider',
-			icon: './assets/icons/interface_public.png',
-			a_attr: { href : '#/type/RTC.Interface.ITypeConverterProvider/index' }
-        },	
-		{
-			id: 'RTC.Interface.ITypesProvider',
-			text: 'ITypesProvider',
-			icon: './assets/icons/interface_public.png',
-			a_attr: { href : '#/type/RTC.Interface.ITypesProvider/index' }
         },	
 
 
