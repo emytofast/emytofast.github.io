@@ -251,22 +251,10 @@ sharpDox.navigationData = [
 			a_attr: { href : '#/type/RTC.Core.BuiltInTypesProvider/index' }
         },	
 		{
-			id: 'RTC.Core.CommandFilter',
-			text: 'CommandFilter',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Core.CommandFilter/index' }
-        },	
-		{
 			id: 'RTC.Core.CommandsProvider',
 			text: 'CommandsProvider',
 			icon: './assets/icons/class_internal.png',
 			a_attr: { href : '#/type/RTC.Core.CommandsProvider/index' }
-        },	
-		{
-			id: 'RTC.Core.LogFilter',
-			text: 'LogFilter',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Core.LogFilter/index' }
         },	
 		{
 			id: 'RTC.Core.Logger',
@@ -337,12 +325,6 @@ sharpDox.navigationData = [
  
 
 		{
-			id: 'RTC.Interface.IFilterT',
-			text: 'IFilter',
-			icon: './assets/icons/interface_public.png',
-			a_attr: { href : '#/type/RTC.Interface.IFilterT/index' }
-        },	
-		{
 			id: 'RTC.Interface.IFormatterT',
 			text: 'IFormatter',
 			icon: './assets/icons/interface_public.png',
@@ -365,73 +347,6 @@ sharpDox.navigationData = [
 			text: 'ITypesProvider',
 			icon: './assets/icons/interface_public.png',
 			a_attr: { href : '#/type/RTC.Interface.ITypesProvider/index' }
-        },	
-
-
-		]
-	},
-	{
-		id: 'RTC.Test',
-		text: 'RTC.Test',
-		icon: './assets/icons/namespace_public.png',
-		a_attr: { href : '#/namespace/RTC.Test' },
-		children: [
-			
- 
-
-		{
-			id: 'RTC.Test.DefaultAssemblyProvider',
-			text: 'DefaultAssemblyProvider',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Test.DefaultAssemblyProvider/index' }
-        },	
-		{
-			id: 'RTC.Test.DefaultParser',
-			text: 'DefaultParser',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Test.DefaultParser/index' }
-        },	
-		{
-			id: 'RTC.Test.DefaultSyntaxAnalyzer',
-			text: 'DefaultSyntaxAnalyzer',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Test.DefaultSyntaxAnalyzer/index' }
-        },	
-		{
-			id: 'RTC.Test.Program',
-			text: 'Program',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Test.Program/index' }
-        },	
-		{
-			id: 'RTC.Test.TestCommands',
-			text: 'TestCommands',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Test.TestCommands/index' }
-        },	
-		{
-			id: 'RTC.Test.Vector2',
-			text: 'Vector2',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Test.Vector2/index' }
-        },	
-		{
-			id: 'RTC.Test.Vector2Interpreter',
-			text: 'Vector2Interpreter',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Test.Vector2Interpreter/index' }
-        },	
-		{
-			id: 'RTC.Test.Vector3',
-			text: 'Vector3',
-			icon: './assets/icons/class_public.png',
-			a_attr: { href : '#/type/RTC.Test.Vector3/index' }
-        },	
-		{
-			id: 'RTC.Test.Vector3Interpreter',
-			text: 'Vector3Interpreter',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Test.Vector3Interpreter/index' }
         },	
 
 
