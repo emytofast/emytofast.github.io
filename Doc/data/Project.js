@@ -8,5 +8,6 @@ sharpDox.projectData = {
    footerLine: '<p>© 2017 Miroiu Emanuel</p>',   hasLogo: true,
   targetFxs: [
 			".NET Framework 3.5",
+			"Unknown",
 	  ]
 }

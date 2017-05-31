@@ -233,58 +233,22 @@ sharpDox.navigationData = [
  
 
 		{
-			id: 'RTC.Core.Analyzer',
-			text: 'Analyzer',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.Analyzer/index' }
+			id: 'RTC.Core.CommandFilter',
+			text: 'CommandFilter',
+			icon: './assets/icons/class_public.png',
+			a_attr: { href : '#/type/RTC.Core.CommandFilter/index' }
         },	
 		{
-			id: 'RTC.Core.BuiltInCommands',
-			text: 'BuiltInCommands',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.BuiltInCommands/index' }
-        },	
-		{
-			id: 'RTC.Core.BuiltInTypesProvider',
-			text: 'BuiltInTypesProvider',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.BuiltInTypesProvider/index' }
-        },	
-		{
-			id: 'RTC.Core.CommandsProvider',
-			text: 'CommandsProvider',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.CommandsProvider/index' }
-        },	
-		{
-			id: 'RTC.Core.Logger',
-			text: 'Logger',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.Logger/index' }
-        },	
-		{
-			id: 'RTC.Core.Parser',
-			text: 'Parser',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.Parser/index' }
+			id: 'RTC.Core.LogFilter',
+			text: 'LogFilter',
+			icon: './assets/icons/class_public.png',
+			a_attr: { href : '#/type/RTC.Core.LogFilter/index' }
         },	
 		{
 			id: 'RTC.Core.RTConsole',
 			text: 'RTConsole',
 			icon: './assets/icons/class_public.png',
 			a_attr: { href : '#/type/RTC.Core.RTConsole/index' }
-        },	
-		{
-			id: 'RTC.Core.TypeConverterProvider',
-			text: 'TypeConverterProvider',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.TypeConverterProvider/index' }
-        },	
-		{
-			id: 'RTC.Core.TypesProvider',
-			text: 'TypesProvider',
-			icon: './assets/icons/class_internal.png',
-			a_attr: { href : '#/type/RTC.Core.TypesProvider/index' }
         },	
 
 
@@ -324,6 +288,12 @@ sharpDox.navigationData = [
 			
  
 
+		{
+			id: 'RTC.Interface.IFilterT',
+			text: 'IFilter',
+			icon: './assets/icons/interface_public.png',
+			a_attr: { href : '#/type/RTC.Interface.IFilterT/index' }
+        },	
 		{
 			id: 'RTC.Interface.IFormatterT',
 			text: 'IFormatter',
